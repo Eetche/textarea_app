@@ -26,10 +26,6 @@ const styles = StyleSheet.create({
     justifyContent: "center"
   },
 
-  createContainer: {
-    width: "60%"
-  }
-
 });
 
 export default App;
