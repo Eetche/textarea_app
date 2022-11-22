@@ -1,4 +1,3 @@
-import SettingSwitch from "./components/SettingSwitch";
 import TextArea from "./components/Textarea";
 
 import { View, StyleSheet, Button } from "react-native";
