@@ -1,12 +1,12 @@
 import SettingSwitch from "./components/SettingSwitch";
-import List from "./components/List";
+import TextArea from "./components/Textarea";
 
 import { View, StyleSheet, Button } from "react-native";
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <List/>
+      <TextArea/>
     </View>
   );
 }
