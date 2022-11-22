@@ -14,10 +14,10 @@ function SvgComponent(props) {
   );
 }
 
-const List = () => {
+const TextArea = () => {
 
     return (
-        <View style={styles.list}>
+        <View style={styles.textarea}>
             <TextInput
                 editable
                 style={styles.input}
@@ -31,7 +31,7 @@ const List = () => {
 }
 
 const styles = StyleSheet.create({
-    list: {
+    textarea: {
         width: "90%",
         height: "60%",
         borderRadius: 10,
@@ -73,4 +73,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default List;
+export default TextArea;
